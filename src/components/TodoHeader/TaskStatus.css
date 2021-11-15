@@ -1,0 +1,22 @@
+.TaskStatusContainer {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #3afbfb;
+    height: 80px;
+    width: 145px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.TaskStatusCount {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.TaskStatusName {
+    font-weight: 300;
+}

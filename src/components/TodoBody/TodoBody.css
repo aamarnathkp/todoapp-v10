@@ -1,0 +1,25 @@
+.TodoBody {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+
+.TodoAddAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.TodoModifyActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: cadetblue;
+}

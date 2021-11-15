@@ -1,0 +1,39 @@
+.TodoModifyContainer {
+    background-color: azure;
+    padding: 20px 20px 100px 20px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.TodoModifyContainer::after {
+    color: aqua;
+    content: attr(data-bg-text);
+    display: block;
+    font-size: 80px;
+    line-height: 1;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.TodoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.TodoSubmitActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 20px;
+    width: 100%;
+}
