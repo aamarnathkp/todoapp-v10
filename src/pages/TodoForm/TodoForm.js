@@ -25,7 +25,6 @@ const TodoForm = ({ action }) => {
     const [status, setStatus] = useState(
         location.state ? location.state.status : "Pending"
     );
-    console.log("form data ", location.state);
     const nameModifyValue = location.state?.name;
     const descModifyValue = location.state?.description;
 

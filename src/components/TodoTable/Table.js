@@ -109,9 +109,9 @@ const TodoTable = () => {
         page * rowsPerPage + rowsPerPage
     );
 
-    let tableBody = tableRowsPerPage.map((row) => {
+    let tableBody = tableRowsPerPage.map((row, index) => {
         return (
-            <ThemeProvider theme={theme}>
+            <ThemeProvider key={index} theme={theme}>
                 <TableRow hover role='checkbox' tabIndex={-1} key={row.code}>
                     {columns.map((column) => {
                         const value = row[column.id];
